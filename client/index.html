@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+  Write a simple React/Flux app that leverages the flickr API to display images
+  in a browser and provide some interactivity. Its up to you to decided exactly
+  what happens inside the app and how you implement it.  I would like to see a
+  couple of unit tests baked in as well. The code should be committed in git
+  and you should be prepared to discuss it in either written or verbal form.
+  
+  Flickr:
+  Key: c7734972ba49789e147499ae89b037d5
+  Secret: bce928c4a9eef04d
+  -->
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Flickr Web App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.14.3/react-dom.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flux/2.1.1/Flux.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-core/5.6.15/browser.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="js/jq/jquery.uriAnchor-1.2.1.js"></script>
+    <script src="js/microevent.js"></script>
+    
+    <link rel="stylesheet" type="text/css" href="css/main.css"/>
+  </head>
+  <body>
+    <div id="container">
+    </div>
+    <script type="text/babel" src="js/flickrwa.js"></script>
+  </body>
+</html>
